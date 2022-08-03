@@ -30,7 +30,7 @@ export class News extends Component {
       page: 1,
       totalResults: 0
     };
-    document.title = `NewsMokey - ${this.capitalizeFirstLetter(
+    document.title = `NewsBanjoo - ${this.capitalizeFirstLetter(
       this.props.category
     )}`;
   }
@@ -83,7 +83,7 @@ export class News extends Component {
     return (
       <>
         <h1 className="text-center" style={{ margin: "35px 0px",marginTop: '90px' }}>
-          NewsMokey - Top {this.capitalizeFirstLetter(this.props.category)}{" "}
+          NewsBanjoo - Top {this.capitalizeFirstLetter(this.props.category)}{" "}
           Headlines
         </h1>
         {this.state.loading && <Spinner />}
